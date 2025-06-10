@@ -1,0 +1,21 @@
+{
+  "name": "youtube-info-fetcher",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A TypeScript command-line tool for fetching YouTube video information",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node --esm src/index.ts"
+  },
+  "dependencies": {
+    "youtube-dl-exec": "^2.5.7",
+    "youtube-transcript-api": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
