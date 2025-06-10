@@ -23,14 +23,6 @@ node dist/index.js "https://www.youtube.com/watch?v=pzggl8C2fvs"
 
 The script will display video information and transcript (if available).
 
-## Features
-
-- Fetches video metadata (title, channel, duration, upload date)
-- Retrieves video transcripts/captions
-- Cleans and formats transcripts with timestamps
-- Handles both auto-generated and manual captions
-- Removes duplicate text and merges overlapping segments
-
 ## Prerequisites
 
 - Node.js (v14 or higher)
@@ -41,8 +33,7 @@ The script will display video information and transcript (if available).
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd <repo-name>
+git clone https://github.com/harshbhati1/YouTubeFetcher
 ```
 
 2. Install dependencies:
@@ -98,17 +89,3 @@ Transcript:
    - Remove duplicate text
    - Format timestamps
 4. The final output includes both video information and the cleaned transcript
-
-## Error Handling
-
-- If a video has no captions, "Transcript not available" will be displayed
-- If there's an error fetching the video info, an error message will be shown
-- The script handles various edge cases like missing captions or malformed data
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## License
-
-MIT License 
